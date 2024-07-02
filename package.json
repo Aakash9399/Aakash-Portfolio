@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage":"https://aakash9399.github.io/Aakash-Portfolio/",
+  
   "eslintConfig": {
     "extends": [
       "react-app",
