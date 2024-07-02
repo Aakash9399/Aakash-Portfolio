@@ -37,7 +37,7 @@ const About = () => {
           My journey in software engineering has been driven by a relentless curiosity and a desire to solve complex problems through innovative coding. Whether it's developing robust back-end systems or crafting seamless user experiences, I am dedicated to delivering high-quality software that makes a difference.</p>
 
           <ButtonLink
-            url='https://docs.google.com/document/d/1r6J5CiSO4rtth4FjHp5-qrpr8WuUcm8r8F8sOpsrIok/edit'
+            url='https://docs.google.com/document/d/1r6J5CiSO4rtth4FjHp5-qrpr8WuUcm8r8F8sOpsrIok/edit?usp=sharing'
             text='View Resume →'
             padding={`p-3`}
           />

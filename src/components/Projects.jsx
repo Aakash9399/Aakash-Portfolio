@@ -8,10 +8,10 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             {title==='Snap Shot' && <a href="https://github.com/Aakash9399/Bill-generator-using-python.git" target="_blank" rel="noreferrer">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
+                <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="vpn" />
             </a>}
             {title==='Co People' && <a  href="https://github.com/Aakash9399/Bill-generator-using-python.git" target="_blank" rel="noreferrer">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
+                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="copeople" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="https://github.com/Aakash9399/Inventory-Management-System.git" target="_blank" rel="noreferrer">
