@@ -1,20 +1,20 @@
 
 import React from "react";
-import vpn from '../assets/vpn.png'
-import copeople from '../assets/copeople.png'
+import vpn from "./../assets/vpn.png"
+import copeople from "./../assets/copeople.png"
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title==='Snap Shot' && <a href="https://example.com" target="_blank" rel="noreferrer">
+            {title==='Snap Shot' && <a href="https://github.com/Aakash9399/Bill-generator-using-python.git" target="_blank" rel="noreferrer">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
-            {title==='Co People' && <a  href="https://example.com" target="_blank" rel="noreferrer">
+            {title==='Co People' && <a  href="https://github.com/Aakash9399/Bill-generator-using-python.git" target="_blank" rel="noreferrer">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
-                <a href="https://example.com" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Aakash9399/Inventory-Management-System.git" target="_blank" rel="noreferrer">
                     <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
                 </a>
                 <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
@@ -38,8 +38,9 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
   
 const Projects = () => {
     return (
-        <div className="bg-black">
-            <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12">
+        <div >
+        <div className="bg-black text-white h-[calc(100vh)]">
+            <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12 ">
                 {project.map((item, index) => (
                     <ProjectCard
                         key={index}
@@ -52,7 +53,8 @@ const Projects = () => {
                     />
                 ))}
             </div>
-            <Footer/>
+        </div>
+        <Footer/>
         </div>
     );
 }
